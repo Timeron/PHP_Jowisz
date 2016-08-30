@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+/* #840084
+#bb00bb
+#ff4aff */
+
+
+#body{
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #840084;
+}
+	
+	#bodyTop{
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
+		
+		#bodyNavigation{
+			margin: 5px 5px 5px 5px;
+			height: 100%;
+			background-color: #bb00bb;
+		}
+	
+	#bodyCenter{
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
+	
+		#bodyNav{
+			margin: 5px 5px 5px 5px;
+			float: left;
+			width: 250px;
+			height: 100%;
+			background-color: #bb00bb;
+		}
+		
+			.bodyNavSection{
+				margin: 15px 5px 5px 5px;
+				height: 100%;
+				background-color: #ff4aff;
+			}
+			
+		#bodySection{
+			margin: 5px 5px 5px 5px;
+			float: left;
+			min-width: 370px;
+			max-width: 690px;
+			width: 100%;
+			height: 100%;
+			background-color: #bb00bb;
+		}
+		
+			.bodySection{
+				margin: 5px 0px 5px 0px;
+				overflow: auto;
+				padding: 15px;
+				height: 100%;
+				background-color: #f400f4;
+			}
+		
+				.bodySectionHeader{
+					margin: 10px 0px 0px 0px;
+					width: 100%;
+					height: 100%;
+					background-color: #ff40ff;
+				}
+				
+				.bodySectionArticle{
+					margin: 10px 0px 0px 0px;
+					width: 100%;
+					height: 100%;
+					background-color: #ff40ff;
+				}
+				
+				.bodySectionFooter{
+					margin: 10px 0px 0px 0px;
+					width: 100%;
+					height: 100%;
+					background-color: #ff40ff;
+				}
+				
+				.bodySectionBox{
+					position: static;
+					float: left;
+					margin: 5px;
+					width: 200px;
+					height: 250px;
+					background-color: #ff40ff;
+				}
+			
+		#bodyAside{
+			margin: 5px 5px 5px 5px;
+			float: right;
+			width: 230px;
+			height: 100%;
+			background-color: #bb00bb;
+		}
+		
+			.bodyAsideSection{
+				margin: 15px 5px 5px 5px;
+				height: 100%;
+				background-color: #f400f4;
+			}
+			
+	#bodyBottom{
+		float: left;
+		width: 100%;
+		height: 100%;
+	}
